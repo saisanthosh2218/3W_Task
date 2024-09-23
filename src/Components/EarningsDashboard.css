@@ -1,0 +1,165 @@
+.earnings-dashboard {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.earnings-statistics {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.total-earnings span {
+  font-size: 14px;
+  color: gray;
+}
+
+.total-earnings h2 {
+  font-size: 32px;
+  color: green;
+  margin: 10px 0;
+}
+
+.earnings-breakdown {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.earnings-breakdown div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
+  padding: 10px;
+}
+
+.earnings-breakdown span {
+  font-weight: bold;
+  color: green;
+  margin-left: -20px;
+}
+
+/* Tab Buttons */
+.tab-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.tab-buttons button {
+  background: none;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #666;
+  transition: background-color 0.3s;
+}
+
+.tab-buttons .active {
+  background-color: rgb(239, 140, 34);
+  color: white;
+  border-radius: 20px;
+}
+
+/* Referral Card */
+.referral-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.referral-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.referral-user {
+  display: flex;
+  align-items: center;
+}
+
+.referral-user img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.referral-info {
+  text-align: right;
+}
+
+.referral-info span {
+  font-size: 14px;
+  color: gray;
+}
+
+.referral-info h4 {
+  font-size: 24px;
+  color: green;
+  margin: 5px 0;
+}
+
+.referral-info p {
+  font-size: 12px;
+  color: gray;
+}
+
+.referral-button {
+  background-color: red;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+/* Expanded Details */
+.referral-details {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details-header h4 {
+  color: #ff5a5a;
+}
+
+.details-content div {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.details-content div span {
+  font-size: 14px;
+  color: rgb(109, 106, 106);
+}
+
+.details-content div p {
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+}

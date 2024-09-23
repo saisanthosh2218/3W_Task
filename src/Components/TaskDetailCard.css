@@ -1,0 +1,147 @@
+.task-card-container {
+  background-color: rgba(0, 0, 0, 0.734);
+  border-radius: 12px;
+  padding: 20px;
+  color: white;
+  width: 400px;
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.task-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 18px;
+}
+
+.task-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.task-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.task-points {
+  background-color: white;
+  color: #ff5a5a;
+  padding: 6px;
+  font-weight: bold;
+  width: fit-content;
+  transition: 0.3s ease;
+}
+
+.task-tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  border: solid 1px whitesmoke;
+  border-radius: 24px;
+  padding: 6px;
+}
+
+.task-tabs button {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.task-tabs .active {
+  color: black;
+  background-color: white;
+  border-radius: 24px;
+}
+
+.task-content {
+  margin-top: 20px;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+  max-height: 1000px; /* High enough for smooth transitions */
+  overflow: hidden;
+  opacity: 1;
+}
+.details-tab p {
+  margin-bottom: 1px;
+}
+
+.details-tab,
+.earnings-tab,
+.disclaimer-tab {
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 0 auto;
+  width: 90%; /* Default width for content */
+  height: 285px;
+  transition: width 0.4s ease, max-height 0.4s ease, opacity 0.4s ease;
+}
+
+.earnings-tab {
+  display: flex;
+  flex-direction: column;
+  /* align-items: start; */
+  justify-content: center;
+}
+
+.earnings-tab li {
+  margin-bottom: 15px;
+}
+
+.disclaimer-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.disclaimer-tab li {
+  margin-bottom: 15px;
+}
+
+.task-link-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff5a5a;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.points-section {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.points-value {
+  color: black;
+}
+
+.inputs {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+
+.file-upload {
+  margin-top: 20px;
+  border: solid 1px gainsboro;
+  padding: 6px;
+}
+
+.submit-btn {
+  background-color: #ff5a5a;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 80px;
+  cursor: pointer;
+  font-weight: bold;
+}
